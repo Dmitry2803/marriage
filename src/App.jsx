@@ -39,7 +39,7 @@ function App() {
       ) : (
         <>
           <img className='kiss' src="https://media1.tenor.com/m/al4a1pG1f8YAAAAC/jump-bear.gif" alt="bear with heart" />
-          <div className='text'>Will you be my valentine 🌹?</div>
+          <div className='text'>Ты будешь моей Валентинкой? 🌹?</div>
           <div className='both-Button'>
             <button className='yesButton'
             style={{ fontSize: yesButtonSize , backgroundColor:'rgb(248, 229, 89)'}}
