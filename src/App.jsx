@@ -41,7 +41,7 @@ function App() {
         </>
       ) : (
         <>
-          <img className='kiss' src="https://media1.tenor.com/m/al4a1pG1f8YAAAAC/jump-bear.gif" alt="bear with heart" />
+          <img className='kiss' src="https://c.tenor.com/5V-VXxO2db4AAAAd/tenor.gif" alt="bear with heart" />
           <div className='text'>Ты выйдешь за меня? 💍?</div>
           <div className='both-Button'>
             <button className='yesButton'
