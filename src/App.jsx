@@ -35,8 +35,8 @@ function App() {
     <div className='valentine-container'>
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="bear-Kissing" />
-          <div className='text'>Ураааа !!!</div>
+          <img src="https://c.tenor.com/VPNyJYk-X8QAAAAd/tenor.gif" alt="bear-Kissing" />
+          <div className='text'>Ураааа, мы заработаем на подарках и я оплачу кредит!!!</div>
         </>
       ) : (
         <>
