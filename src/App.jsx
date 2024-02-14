@@ -2,14 +2,14 @@ import { useState } from 'react'
 import './App.css'
 
 const phrases = [
-  "No 🙉",
-  "Are you sure?",
-  "Really Sure😢",
-  "I'll be very sad😕",
-  "Pookie Please🥺",
-  "Don't do this to me🫤",
-  "I'm gonna cry..😭",
-  "You are breaking my heart😭💔",
+  "Нет 🙉",
+  "Ты уверена?",
+  "Абсолютно уверена?😢",
+  "Мне будет очень грустно😕",
+  "Ну можалуйста🥺",
+  "Не поступай так со мной(",
+  "Я буду плакать..😭",
+  "Ты разбиваешь мне сердце😭💔",
 ]
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="bear-Kissing" />
-          <div className='text'>Yayyy !!!</div>
+          <div className='text'>Ураааа !!!</div>
         </>
       ) : (
         <>
@@ -45,7 +45,7 @@ function App() {
             style={{ fontSize: yesButtonSize , backgroundColor:'rgb(248, 229, 89)'}}
               onClick={handleYesClick}
             >
-              Yes 🙈
+              Да 🙈
             </button>
             <button
               className='NoButton'
